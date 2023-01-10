@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aquaculture:atlantic_halibut"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "aquacultureexpanded:chowder",
+    "count": 2
+  }
+}

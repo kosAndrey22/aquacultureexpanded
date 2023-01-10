@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aquaculture:pollock"
+  },
+  "result": "aquacultureexpanded:cooked_pollock",
+  "experience": 0.35,
+  "cookingtime": 200
+}

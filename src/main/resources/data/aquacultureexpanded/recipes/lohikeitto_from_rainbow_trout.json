@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aquaculture:rainbow_trout"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "aquacultureexpanded:lohikeitto",
+    "count": 1
+  }
+}

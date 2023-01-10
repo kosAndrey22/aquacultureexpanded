@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "aquaculture:perch"
+  },
+  "result": "aquacultureexpanded:dried_perch",
+  "experience": 0.35,
+  "cookingtime": 400
+}

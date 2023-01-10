@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aquacultureexpanded:tuna_pate"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "aquacultureexpanded:sandwich_with_tuna",
+    "count": 1
+  }
+}

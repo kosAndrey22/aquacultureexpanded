@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aquacultureexpanded:dried_minnow"
+    },
+    {
+      "item": "aquacultureexpanded:dried_minnow"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "aquacultureexpanded:naparocco",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "aquaculture:pollock"
+  },
+  "result": "aquacultureexpanded:cooked_pollock",
+  "experience": 0.35,
+  "cookingtime": 600
+}

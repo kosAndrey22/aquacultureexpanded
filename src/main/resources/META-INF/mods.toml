@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+[[mods]]
+modId="aquacultureexpanded"
+version="${file.jarVersion}"
+displayName="Aquaculture Expanded"
+logoFile="logo.png"
+authors="kosoban"
+description='''
+Expand aquaculture mod for minecraft.
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="aquaculture"
+    mandatory=true
+    versionRange="[1.0.0,100.0.0)"
+    ordering="AFTER"
+    side="BOTH"

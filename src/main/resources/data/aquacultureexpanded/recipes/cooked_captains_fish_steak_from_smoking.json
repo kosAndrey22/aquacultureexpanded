@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "aquacultureexpanded:captains_fish_steak"
+  },
+  "result": "aquacultureexpanded:cooked_captains_fish_steak",
+  "experience": 0.35,
+  "cookingtime": 100
+}

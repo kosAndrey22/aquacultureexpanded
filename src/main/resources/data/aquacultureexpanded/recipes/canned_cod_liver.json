@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+    {
+        "item": "aquacultureexpanded:cod_liver"
+    },
+    {
+        "item": "minecraft:glass_bottle"
+    },
+    {
+        "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "aquacultureexpanded:canned_cod_liver",
+    "count": 1
+  }
+}
