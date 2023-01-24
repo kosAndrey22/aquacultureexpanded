@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.1.1'
+version = '1.2.0'
 group = 'com.kosoban.aquacultureexpanded'
 archivesBaseName = 'aquacultureexpanded'
 
@@ -116,13 +116,13 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    // Put repositories for dependencies here
-    // ForgeGradle automatically adds the Forge maven and Maven Central for you
-
-    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
-    // flatDir {
-    //     dir 'libs'
-    // }
+    maven {
+        url 'https://www.cursemaven.com'
+        // FG4: It's recommended to uncomment the following block
+        // content {
+        //     includeGroup "curse.maven"
+        // }
+    }
 }
 
 dependencies {
@@ -130,6 +130,8 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    implementation 'curse.maven:aquaculture-60028:4074684'
+//    implementation fg.deobf("teammetallurgy.aquaculture:Aquaculture-1.19.2-2.4.8")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

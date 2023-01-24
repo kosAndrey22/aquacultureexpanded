@@ -1,6 +1,10 @@
 package com.kosoban.aquacultureexpanded.items;
 
+import com.kosoban.aquacultureexpanded.ModCreativeTab;
+import com.teammetallurgy.aquaculture.item.AquaFishingRodItem;
+import com.teammetallurgy.aquaculture.item.ItemFilletKnife;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -31,4 +35,8 @@ public class ModItems {
     public static final RegistryObject<Item> DRESSED_HERRING = ITEMS.register("dressed_herring", () -> new DressedHerring());
     public static final RegistryObject<Item> GOLDEN_DRESSED_HERRING = ITEMS.register("golden_dressed_herring", () -> new GoldenDressedHerring());
     public static final RegistryObject<Item> ENCHANTED_DRESSED_HERRING = ITEMS.register("enchanted_dressed_herring", () -> new EnchantedDressedHerring());
+
+    public static final RegistryObject<Item> NETHERITE_FISHING_ROD = ITEMS.register("netherite_fishing_rod", () -> new NetheriteFishingRod());
+
+    public static final RegistryObject<Item> NETHERITE_FILLET_KNIFE = ITEMS.register("netherite_fillet_knife", () -> new NetheriteFilletKnife());
 }
