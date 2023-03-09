@@ -10,12 +10,12 @@ Mod adds some new food recipes, which described below:
 |------------|---------------|--------------|----------------|----------------|
 | Cod liver     | Atlantic cod    | Crafting Table | 2/2              |  |
 | Canned cod liver     | Cod liver + Glass Bottle + Sugar    | Crafting Table | 8/15              |  |
-| Chowder     | (Blackfish / Pacific Halibut / Atlantic Halibut + Perch)<br> + Potato + Raw Porkchop + Bowl    | Crafting Table | 14/14              |  |
+| Chowder     | (Blackfish / Pacific Halibut / Atlantic Halibut + Perch) + Potato + Raw Porkchop + Bowl    | Crafting Table | 14/14              |  |
 | Pickled Herring     | Atlantic Herring + Glass Bottle + Sugar    | Crafting Table | 6/6              |  |
 | Dressed Herring     | Pickled Herring + Carrot + Apple + Egg(2) + Beetroot + Bowl    | Crafting Table | 16/24              | Places as cake and has 8 pieces. Each slice restores 2 food points and 3 saturation |
 | Golden Dressed Herring     | Pickled Herring + Carrot + Golden Apple + Egg(2) + Beetroot + Bowl    | Crafting Table | 16/24              | Same as dressed herring, but each slice gives you a golden apple effect. |
 | Enchanted Dressed Herring     | Pickled Herring + Golden Carrot + Enchanted Apple + Egg(2) + Beetroot + Bowl    | Crafting Table | 16/24              | Same as dressed herring, but each slice gives you a enchanted apple effect. |
-| Ukha     | (Pink Salmon / Smallmouth Bass / Carp / Gar / Perch . Muskellunge)<br> + Potato + Carrot + Bowl    | Crafting Table | 10/12             |  |
+| Ukha     | (Pink Salmon / Smallmouth Bass / Carp / Gar / Perch . Muskellunge) + Potato + Carrot + Bowl    | Crafting Table | 10/12             |  |
 | Cooked Pollock     | Pollock    | Furnace / Smoker / Campfire | 4/5              |  |
 | Lohikeitto     | (Rainbow Trout / Brown Trout) + Potato + Milk Bucket + Bowl    | Crafting Table | 8/12              | Removes negative effects |
 | Captain’s fish steak     | Capitaine    | Crafting Table | 3/3              |  |
