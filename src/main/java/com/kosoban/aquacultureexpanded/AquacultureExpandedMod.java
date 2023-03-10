@@ -27,5 +27,6 @@ public class AquacultureExpandedMod
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         ModEntities.setupEntities();
+        ModItems.setupItems();
     }
 }

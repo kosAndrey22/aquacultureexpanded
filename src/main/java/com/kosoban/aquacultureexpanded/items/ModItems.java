@@ -1,10 +1,7 @@
 package com.kosoban.aquacultureexpanded.items;
 
-import com.kosoban.aquacultureexpanded.ModCreativeTab;
-import com.teammetallurgy.aquaculture.item.AquaFishingRodItem;
-import com.teammetallurgy.aquaculture.item.ItemFilletKnife;
+import com.teammetallurgy.aquaculture.client.ClientHandler;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -39,4 +36,8 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_FISHING_ROD = ITEMS.register("netherite_fishing_rod", () -> new NetheriteFishingRod());
 
     public static final RegistryObject<Item> NETHERITE_FILLET_KNIFE = ITEMS.register("netherite_fillet_knife", () -> new NetheriteFilletKnife());
+
+    public static void setupItems() {
+        ClientHandler.registerFishingRodModelProperties(NETHERITE_FISHING_ROD.get());
+    }
 }
