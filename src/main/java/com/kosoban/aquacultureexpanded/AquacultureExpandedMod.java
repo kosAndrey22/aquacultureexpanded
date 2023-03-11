@@ -21,6 +21,7 @@ public class AquacultureExpandedMod
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(bus);
         ModBlocks.BLOCKS.register(bus);
+        ModEntities.ENTITIES.register(bus);
 
         bus.addListener(this::commonSetup);
     }
