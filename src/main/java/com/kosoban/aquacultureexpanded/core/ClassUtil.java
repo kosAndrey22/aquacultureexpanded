@@ -1,4 +1,4 @@
-package com.kosoban.aquacultureexpanded.utils;
+package com.kosoban.aquacultureexpanded.core;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

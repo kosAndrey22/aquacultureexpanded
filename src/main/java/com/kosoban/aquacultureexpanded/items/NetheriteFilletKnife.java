@@ -3,7 +3,6 @@ package com.kosoban.aquacultureexpanded.items;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import com.kosoban.aquacultureexpanded.ModCreativeTab;
-import com.teammetallurgy.aquaculture.item.ItemFilletKnife;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -22,11 +21,8 @@ public class NetheriteFilletKnife extends SwordItem {
     private final float attackDamage;
     private final Multimap<Attribute, AttributeModifier> attributes;
 
-//    private final ItemFilletKnife filletKnife;
-
     public NetheriteFilletKnife() {
         super(Tiers.NETHERITE, 0, 0.0F, (new Item.Properties()).tab(ModCreativeTab.MAIN_TAB).defaultDurability((int)((float)Tiers.NETHERITE.getUses() * 0.75F)));
-//        filletKnife = new ItemFilletKnife(Tiers.NETHERITE);
 
         Tiers material = Tiers.NETHERITE;
         this.attackDamage = material.getAttackDamageBonus() / 2;
@@ -39,25 +35,21 @@ public class NetheriteFilletKnife extends SwordItem {
 
     @Override
     public boolean canApplyAtEnchantingTable(@Nonnull ItemStack stack, Enchantment enchantment) {
-//        return filletKnife.canApplyAtEnchantingTable(stack, enchantment);
         return super.canApplyAtEnchantingTable(stack, enchantment) && canApplyEnchantment(enchantment);
     }
 
     private boolean canApplyEnchantment(Enchantment enchantment) {
-//        return filletKnife.canApplyEnchantment(enchantment);
         return enchantment != Enchantments.MOB_LOOTING && enchantment != Enchantments.SWEEPING_EDGE;
     }
 
     @Override
     public float getDamage() {
         return this.attackDamage;
-//        return filletKnife.getDamage();
     }
 
     @Override
     @Nonnull
     public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiers(@Nonnull EquipmentSlot slotType) {
-//        return filletKnife.getDefaultAttributeModifiers(slotType);
         return slotType == EquipmentSlot.MAINHAND ? this.attributes : ImmutableMultimap.of();
     }
 }

@@ -44,7 +44,6 @@ public class ModItems {
 
     // Fish
     public static final RegistryObject<Item> BELUGA = FishRegistry.register(Beluga::new, "beluga", FishType.LARGE);
-//    public static final RegistryObject<Item> BELUGA = register(Beluga::new, "beluga");
 
     public static void setupItems() {
         ClientHandler.registerFishingRodModelProperties(NETHERITE_FISHING_ROD.get());

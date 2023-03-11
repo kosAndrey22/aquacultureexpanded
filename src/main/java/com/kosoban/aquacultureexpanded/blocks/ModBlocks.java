@@ -1,7 +1,5 @@
 package com.kosoban.aquacultureexpanded.blocks;
 
-import com.kosoban.aquacultureexpanded.items.NetheriteFilletKnife;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
