@@ -1,6 +1,5 @@
 package com.kosoban.aquacultureexpanded.items;
 
-import com.kosoban.aquacultureexpanded.ModCreativeTab;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
@@ -16,7 +15,7 @@ public class Lohikeitto extends Item {
     public static final FoodProperties foodProperties = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.75F).build();
 
     public Lohikeitto() {
-        super(new Item.Properties().tab(ModCreativeTab.MAIN_TAB).food(Lohikeitto.foodProperties).stacksTo(1));
+        super(new Item.Properties().food(Lohikeitto.foodProperties).stacksTo(1));
     }
 
 
