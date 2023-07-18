@@ -18,7 +18,6 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.gameevent.GameEvent;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -54,7 +53,7 @@ public class DressedHerringBlock extends Block {
 
 
     public DressedHerringBlock() {
-        super(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL));
+        super(BlockBehaviour.Properties.of().strength(0.5F).sound(SoundType.WOOL));
         this.registerDefaultState(this.stateDefinition.any().setValue(BITES, Integer.valueOf(0)));
     }
 
@@ -122,7 +121,7 @@ public class DressedHerringBlock extends Block {
     }
 
     public boolean canSurvive(BlockState p_51209_, LevelReader p_51210_, BlockPos p_51211_) {
-        return p_51210_.getBlockState(p_51211_.below()).getMaterial().isSolid();
+        return p_51210_.getBlockState(p_51211_.below()).isSolid();
     }
 
     public BlockState updateShape(BlockState p_51213_, Direction p_51214_, BlockState p_51215_, LevelAccessor p_51216_, BlockPos p_51217_, BlockPos p_51218_) {

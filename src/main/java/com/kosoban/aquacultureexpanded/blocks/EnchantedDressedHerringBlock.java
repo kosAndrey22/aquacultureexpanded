@@ -5,11 +5,10 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 
 public class EnchantedDressedHerringBlock extends DressedHerringBlock {
     public EnchantedDressedHerringBlock() {
-        super (BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL).lightLevel((p_50878_) -> 4), 1.2F);
+        super (BlockBehaviour.Properties.of().strength(0.5F).sound(SoundType.WOOL).lightLevel((p_50878_) -> 4), 1.2F);
     }
 
     protected void applyEffects(Player p_51189_) {
