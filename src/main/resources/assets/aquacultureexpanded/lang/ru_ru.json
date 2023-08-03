@@ -1,8 +1,12 @@
 {
      "tabs.aquacultureexpanded.main_tab": "Расширение аквакультуры",
+
+     "_comment": "Blocks",
      "block.aquacultureexpanded.dressed_herring": "Сельдь под шубой",
      "block.aquacultureexpanded.golden_dressed_herring": "Волшебная сельдь под шубой",
      "block.aquacultureexpanded.enchanted_dressed_herring": "Зачарованная сельдь под шубой",
+
+     "_comment": "Food",
      "item.aquacultureexpanded.canned_cod_liver": "Консерв. печень трески",
      "item.aquacultureexpanded.captains_fish_steak": "Сырой стейк из рыбы капитана",
      "item.aquacultureexpanded.catfish_pie": "Пирог из сома",
@@ -14,7 +18,6 @@
      "item.aquacultureexpanded.dried_minnow": "Сушеный пескарь",
      "item.aquacultureexpanded.dried_perch": "Сушеный окунь",
      "item.aquacultureexpanded.pickled_herring": "Маринованая сельдь",
-     "item.aquacultureexpanded.prussian_carp": "Серебряный карась",
      "item.aquacultureexpanded.netherite_fishing_rod": "Незеритовая удочка",
      "item.aquacultureexpanded.netherite_fillet_knife": "Незеритовый нож для разделки",
      "item.aquacultureexpanded.lohikeitto": "Калакейтто",
@@ -22,5 +25,11 @@
      "item.aquacultureexpanded.sandwich_with_tuna": "Бутерброд с тунцом",
      "item.aquacultureexpanded.stuffed_gar": "Фаршированная щука",
      "item.aquacultureexpanded.tuna_pate": "Паштет из тунца",
-     "item.aquacultureexpanded.ukha": "Уха"
+     "item.aquacultureexpanded.ukha": "Уха",
+
+     "_comment": "Fish",
+     "item.aquacultureexpanded.prussian_carp": "Серебряный карась",
+
+     "_comment": "Fish Buckets",
+     "item.aquacultureexpanded.prussian_carp_bucket": "Ведро с серебряным карасём"
 }

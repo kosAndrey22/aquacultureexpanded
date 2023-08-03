@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "aquaculture:item/lower_bucket",
-    "layer0": "aquacultureexpanded:item/prussian_carp"
+    "layer1": "aquacultureexpanded:item/bucket_content/prussian_carp"
   }
 }
