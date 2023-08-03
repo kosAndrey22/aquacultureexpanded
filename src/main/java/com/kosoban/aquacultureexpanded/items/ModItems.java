@@ -11,6 +11,7 @@ import static com.kosoban.aquacultureexpanded.AquacultureExpandedMod.MODID;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
+    // Food
     public static final RegistryObject<Item> CANNED_COD_LIVER = ITEMS.register("canned_cod_liver", () -> new CannedCodLiver());
     public static final RegistryObject<Item> CAPTAINS_FISH_STEAK = ITEMS.register("captains_fish_steak", () -> new CaptainsFishSteak());
     public static final RegistryObject<Item> CATFISH_PIE = ITEMS.register("catfish_pie", () -> new CatfishPie());
@@ -29,13 +30,17 @@ public class ModItems {
     public static final RegistryObject<Item> TUNA_PATE = ITEMS.register("tuna_pate", () -> new TunaPate());
     public static final RegistryObject<Item> UKHA = ITEMS.register("ukha", () -> new Ukha());
 
+    // Cake-like food
     public static final RegistryObject<Item> DRESSED_HERRING = ITEMS.register("dressed_herring", () -> new DressedHerring());
     public static final RegistryObject<Item> GOLDEN_DRESSED_HERRING = ITEMS.register("golden_dressed_herring", () -> new GoldenDressedHerring());
     public static final RegistryObject<Item> ENCHANTED_DRESSED_HERRING = ITEMS.register("enchanted_dressed_herring", () -> new EnchantedDressedHerring());
 
+    // Tools
     public static final RegistryObject<Item> NETHERITE_FISHING_ROD = ITEMS.register("netherite_fishing_rod", () -> new NetheriteFishingRod());
-
     public static final RegistryObject<Item> NETHERITE_FILLET_KNIFE = ITEMS.register("netherite_fillet_knife", () -> new NetheriteFilletKnife());
+
+    // Fish
+    public static final RegistryObject<Item> PRUSSIAN_CARP = ITEMS.register("prussian_carp", () -> new PrussianCarp());
 
     public static void setupItems() {
         ClientHandler.registerFishingRodModelProperties(NETHERITE_FISHING_ROD.get());

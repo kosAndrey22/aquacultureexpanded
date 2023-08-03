@@ -1,5 +1,6 @@
 package com.kosoban.aquacultureexpanded;
 
+import com.kosoban.aquacultureexpanded.loot.FishWeightHandler;
 import com.mojang.logging.LogUtils;
 import com.kosoban.aquacultureexpanded.blocks.ModBlocks;
 import com.kosoban.aquacultureexpanded.entity.ModEntities;
@@ -47,5 +48,6 @@ public class AquacultureExpandedMod
     private void commonSetup(final FMLCommonSetupEvent event) {
         ModEntities.setupEntities();
         ModItems.setupItems();
+        FishWeightHandler.registerFishData();
     }
 }
