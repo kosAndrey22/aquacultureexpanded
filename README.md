@@ -1,7 +1,7 @@
 ### Aquaculture Expand
 
 Expand mod for another Minecraft mod - aquaculture 2  (https://www.curseforge.com/minecraft/mc-mods/aquaculture/files).
-Mod adds some new recipes and some new trades with villagers.
+Mod adds some new recipes, trades and fishes.
 
 #### New Food Recipes
 Mod adds some new food recipes, which described below:
@@ -42,3 +42,8 @@ Mod adds some new trades with villagers, which described below:
 | Librarian  | Arapaima (x1) | Emerald (x1) | 4              |
 | Fisherman  | Goldfish (x2) | Emerald (x1) | 4              |
 | Fisherman  | Emerald (x1)  | Perch (x3)   | 2              |
+
+#### New Fishes
+| Name          | Area       |
+|---------------|------------|
+| Prussian Carp | Freshwater |
