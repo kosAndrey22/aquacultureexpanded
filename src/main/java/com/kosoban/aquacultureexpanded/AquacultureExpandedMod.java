@@ -1,5 +1,7 @@
 package com.kosoban.aquacultureexpanded;
 
+import com.kosoban.aquacultureexpanded.client.ClientHandlerExp;
+import com.kosoban.aquacultureexpanded.loot.FishWeightHandler;
 import com.mojang.logging.LogUtils;
 import com.kosoban.aquacultureexpanded.blocks.ModBlocks;
 import com.kosoban.aquacultureexpanded.entity.ModEntities;
@@ -10,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -39,13 +42,19 @@ public class AquacultureExpandedMod
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(bus);
         ModBlocks.BLOCKS.register(bus);
+        ModEntities.ENTITIES.register(bus);
         CREATIVE_TABS.register(bus);
 
         bus.addListener(this::commonSetup);
+        bus.addListener(this::clientSetup);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         ModEntities.setupEntities();
-        ModItems.setupItems();
+        FishWeightHandler.registerFishData();
+    }
+
+    private void clientSetup(FMLClientSetupEvent event) {
+        event.enqueueWork(ClientHandlerExp::setupClient);
     }
 }

@@ -1,8 +1,12 @@
 {
      "tabs.aquacultureexpanded.main_tab": "Aquaculture Expand",
+
+     "_comment": "Blocks",
      "block.aquacultureexpanded.dressed_herring": "Dressed herring",
      "block.aquacultureexpanded.golden_dressed_herring": "Magic dressed herring",
      "block.aquacultureexpanded.enchanted_dressed_herring": "Enchanted dressed herring",
+
+     "_comment": "Food",
      "item.aquacultureexpanded.canned_cod_liver": "Canned cod liver",
      "item.aquacultureexpanded.captains_fish_steak": "Captain's fish steak",
      "item.aquacultureexpanded.catfish_pie": "Catfish pie",
@@ -21,5 +25,11 @@
      "item.aquacultureexpanded.sandwich_with_tuna": "Sandwich with tuna",
      "item.aquacultureexpanded.stuffed_gar": "Stuffed gar",
      "item.aquacultureexpanded.tuna_pate": "Tuna pate",
-     "item.aquacultureexpanded.ukha": "Ukha"
+     "item.aquacultureexpanded.ukha": "Ukha",
+
+     "_comment": "Fish",
+     "item.aquacultureexpanded.prussian_carp": "Prussian Carp",
+
+     "_comment": "Fish Buckets",
+     "item.aquacultureexpanded.prussian_carp_bucket": "Bucket of Prussian Carp"
 }
